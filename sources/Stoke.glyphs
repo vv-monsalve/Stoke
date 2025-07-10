@@ -64,6 +64,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = unicodeRanges;
 value = (
 0,
@@ -92,25 +93,6 @@ value = (
 .notdef,
 .null,
 CR,
-uni0001,
-uni0002,
-uni0003,
-uni0004,
-uni0005,
-uni0006,
-uni0007,
-uni0008,
-uni0009,
-uni0010,
-uni0011,
-uni0012,
-uni0013,
-uni0014,
-uni0015,
-uni0016,
-uni0017,
-uni0018,
-uni0019,
 space,
 exclam,
 quotedbl,
@@ -519,6 +501,94 @@ caronvertical,
 );
 date = "2012-07-12 02:45:25 +0000";
 familyName = Stoke;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature sups;
+feature frac;
+feature ordn;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;
+language ROM;
+lookup locl_latn_0 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_0;
+language MOL;
+lookup locl_latn_0;
+
+script latn;
+language CAT;
+lookup locl_latn_1 {
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_1;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub two by twosuperior;
+sub three by threesuperior;
+sub one by onesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f i by fi;
+sub f l by fl;
+";
+tag = liga;
+}
+);
 fontMaster = (
 {
 axesValues = (
@@ -81389,15 +81459,14 @@ note = .ttfautohint;
 );
 instances = (
 {
+axesValues = (
+400
+);
 instanceInterpolations = {
-"792D4558-F830-44B3-9794-52A6ACE12B02" = 1;
+m01 = 1;
 };
 name = Regular;
 properties = (
-{
-key = postscriptFontName;
-value = "Stoke-Regular";
-},
 {
 key = postscriptFullNames;
 values = (
@@ -81408,6 +81477,16 @@ value = "Stoke Regular";
 );
 }
 );
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+"792D4558-F830-44B3-9794-52A6ACE12B02" = 1;
+};
+name = Light;
+weightClass = 300;
 }
 );
 kerningLTR = {
@@ -81629,5 +81708,5 @@ disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
