@@ -21,8 +21,8 @@ A/Placeholder A B/Placeholder B C/Placeholder C D/Placeholder D E/Placeholder E 
  
 ABCODEFGHIJKLMNOPQRSTUOVOWXYZ
 
-ADD AFAIK AGRADO ALTAR AYJ ALVARO AMAYA OVOIDE ARVO AUSTRAL AVATAR AVIÓN AWARD AYUDA AYUNO BAOARLEY ALTO CHERVIL FALAZ FAMILY FAVOR FOLD FOSFORO HOYO KALE KELLOGS KILO KUNST LONDRES LYCHEE LYON MARVELOUS MONTH MUG MY OVOIDE LYON OXATAIL OXO PAIN PATO PIZZA POINT RAYA ROTO RYAN SQUASH SXS TAIWAN TALL TARA AVARO TEMPERTURE TERMO TÌNH TIRO TOFU TOMATO TUVO TWARDOCK TWOMBLI UPPUMA VACA OTTO VANILLA VARIAR VELOCIDAD VIAJAR VIENE VOLCAN WALKING WALS WC WD WHEAT WINSTON WONDER WULC XERGIS XEROX YALE YEYO YIN YOGURT YOU ZUCCHINI ZWEIBACK NGI THY VNG TRI HALO VALOR OCULTO
-ARROYO HOYO OWO
+ADD AFAIK AGRADO ALTAR AYJ ALVARO AMAYA OVOIDE ARVO AUSTRAL HHAVATAR AVIÓN AWARD AYUDA AYUNO BAOARLEY ALTO CHERVIL FALAZ FAMILY FAVOR FOLD FOSFORO HOYO KALE KELLOGS KILO KUNST LONDRES LYCHEE LYON MARVELOUS MONTH MUG MY OVOIDE LYON OXATAIL OXO PAIN PATO PIZZA POINT RAYA ROTO RYAN SQUASH SXS TAIWAN TALL TARA AVARO TEMPERTURE TERMO TÌNH TIRO TOFU TOMATO TUVO TWARDOCK TWOMBLI UPPUMA VACA OTTO VANILLA VARIAR VELOCIDAD VIAJAR VIENE VOLCAN WALKING WALS WC WD WHEAT WINSTON WONDER WULC XERGIS XEROX YALE YEYO YIN YOGURT YOU OWO ZUCCHINI ZWEIBACK NGI THY VNG TRI HALO VALOR OCULTO
+ARROYO HOYO OWO HHAWARD
 
 VY CHY ĐT T THNG TY 
 
@@ -12042,7 +12042,7 @@ unicode = 69;
 glyphname = F;
 kernLeft = H;
 kernRight = F;
-lastChange = "2025-07-10 17:50:37 +0000";
+lastChange = "2025-07-10 17:55:43 +0000";
 layers = (
 {
 layerId = m01;
@@ -14579,7 +14579,7 @@ unicode = 75;
 glyphname = L;
 kernLeft = H;
 kernRight = L;
-lastChange = "2025-07-10 17:50:37 +0000";
+lastChange = "2025-07-10 18:03:33 +0000";
 layers = (
 {
 layerId = m01;
@@ -15944,7 +15944,7 @@ unicode = 78;
 glyphname = O;
 kernLeft = O;
 kernRight = O;
-lastChange = "2025-07-10 17:44:28 +0000";
+lastChange = "2025-07-10 18:03:08 +0000";
 layers = (
 {
 layerId = m01;
@@ -17751,7 +17751,7 @@ unicode = 83;
 glyphname = T;
 kernLeft = T;
 kernRight = T;
-lastChange = "2025-07-10 17:53:25 +0000";
+lastChange = "2025-07-10 17:57:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -18541,7 +18541,7 @@ unicode = 85;
 glyphname = V;
 kernLeft = V;
 kernRight = V;
-lastChange = "2025-07-10 17:43:26 +0000";
+lastChange = "2025-07-10 18:00:12 +0000";
 layers = (
 {
 layerId = m01;
@@ -18881,7 +18881,7 @@ unicode = 86;
 glyphname = W;
 kernLeft = W;
 kernRight = W;
-lastChange = "2025-07-10 17:54:15 +0000";
+lastChange = "2025-07-10 18:02:06 +0000";
 layers = (
 {
 background = {
@@ -19938,7 +19938,7 @@ unicode = 88;
 glyphname = Y;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2025-07-10 17:54:32 +0000";
+lastChange = "2025-07-10 18:00:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -81405,13 +81405,53 @@ value = "Stoke Regular";
 }
 );
 kerningLTR = {
+"792D4558-F830-44B3-9794-52A6ACE12B02" = {
+"@MMK_L_A" = {
+"@MMK_R_O" = -10;
+"@MMK_R_T" = -80;
+"@MMK_R_V" = -140;
+"@MMK_R_W" = -100;
+"@MMK_R_Y" = -90;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -100;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -80;
+"@MMK_R_V" = -90;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -10;
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -80;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -140;
+"@MMK_R_O" = -30;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -100;
+"@MMK_R_O" = -30;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -90;
+"@MMK_R_J" = -110;
+"@MMK_R_O" = -20;
+};
+};
 m01 = {
 "@MMK_L_A" = {
 "@MMK_R_J" = 20;
+"@MMK_R_O" = -12;
 "@MMK_R_T" = -90;
-"@MMK_R_V" = -128;
+"@MMK_R_V" = -140;
 "@MMK_R_W" = -110;
-"@MMK_R_Y" = -70;
+"@MMK_R_Y" = -90;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -86;
@@ -81421,9 +81461,11 @@ m01 = {
 };
 "@MMK_L_L" = {
 "@MMK_R_T" = -80;
+"@MMK_R_V" = -100;
 "@MMK_R_Y" = -74;
 };
 "@MMK_L_O" = {
+"@MMK_R_A" = -12;
 "@MMK_R_V" = -10;
 "@MMK_R_W" = -15;
 "@MMK_R_Y" = -20;
@@ -81437,11 +81479,11 @@ m01 = {
 "@MMK_R_O" = -20;
 };
 "@MMK_L_W" = {
-"@MMK_R_A" = -80;
+"@MMK_R_A" = -110;
 "@MMK_R_O" = -12;
 };
 "@MMK_L_Y" = {
-"@MMK_R_A" = -70;
+"@MMK_R_A" = -90;
 "@MMK_R_J" = -106;
 "@MMK_R_O" = -20;
 };
