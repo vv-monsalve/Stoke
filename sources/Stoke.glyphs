@@ -21,7 +21,7 @@ fear fall kilo long ovoide want wind oxo zapato
 
 Twombli Tgmaiwan Taiwan You Year Tomato Temperture Tiro Twardock Walking Wonder Wc Wd Wrcnder You Family Fear Furor Vocal Viajar Zusam Pearl Point Pain Ayuda Volver  Tv Wonder
 Kilo Londres Leon Lio Month Lyon Tt Thng Tt tt Nht Vng Bt Đc Tng Tng Tt Tt Tt Valor Oculto Andrés
-Sergio Tomás Páez Santiago",
+Sergio Tomás Páez Santiago Avenida Award Ayer",
 "HH/Placeholder HO/Placeholder OOFAF GAG
 A/Placeholder A B/Placeholder B C/Placeholder C D/Placeholder D E/Placeholder E F/Placeholder F G/Placeholder G H/Placeholder H I/Placeholder I  J/Placeholder J K/Placeholder K L/Placeholder L M/Placeholder M N/Placeholder N O/Placeholder O P/Placeholder P Q/Placeholder Q R/Placeholder R S/Placeholder S T/Placeholder T U/Placeholder U V/Placeholder V W/Placeholder W X/Placeholder X Y/Placeholder Y Z/Placeholder Z HH/Placeholder HHO/Placeholder OOHH/Placeholder HH
  
@@ -35,7 +35,8 @@ VY CHY ĐT T THNG TY
 ",
 "HHHOHNHHHMH
 HNHHMH",
-"/acute.cap Ć"
+"/acute.cap Ć",
+"/nbspace"
 );
 axes = (
 {
@@ -497,6 +498,10 @@ macron.cap,
 caronvertical,
 .ttfautohint
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2012-07-12 02:45:25 +0000";
@@ -2779,7 +2784,7 @@ note = .notdef;
 },
 {
 glyphname = .null;
-lastChange = "2025-07-10 17:01:37 +0000";
+lastChange = "2025-07-10 18:31:30 +0000";
 layers = (
 {
 layerId = m01;
@@ -2796,7 +2801,6 @@ width = 0;
 }
 );
 note = .null;
-unicode = 0;
 },
 {
 glyphname = CR;
@@ -10281,7 +10285,7 @@ unicode = 64;
 glyphname = A;
 kernLeft = A;
 kernRight = A;
-lastChange = "2025-07-10 18:06:38 +0000";
+lastChange = "2025-07-10 18:41:06 +0000";
 layers = (
 {
 layerId = m01;
@@ -31003,27 +31007,6 @@ note = asciitilde;
 unicode = 126;
 },
 {
-glyphname = nonbreakingspace;
-lastChange = "2025-07-10 17:01:37 +0000";
-layers = (
-{
-layerId = m01;
-width = 269;
-},
-{
-associatedMasterId = "792D4558-F830-44B3-9794-52A6ACE12B02";
-layerId = "6B1252CF-E426-46DC-A9C6-391C8BFD5F20";
-width = 550;
-},
-{
-layerId = "792D4558-F830-44B3-9794-52A6ACE12B02";
-width = 269;
-}
-);
-note = nonbreakingspace;
-unicode = 160;
-},
-{
 glyphname = exclamdown;
 lastChange = "2025-07-10 17:01:37 +0000";
 layers = (
@@ -35816,7 +35799,7 @@ unicode = 180;
 },
 {
 glyphname = mu;
-lastChange = "2025-07-10 17:04:25 +0000";
+lastChange = "2025-07-10 18:31:30 +0000";
 layers = (
 {
 layerId = m01;
@@ -36196,7 +36179,7 @@ width = 748;
 }
 );
 note = mu;
-unicode = (181,956);
+unicode = 181;
 },
 {
 glyphname = paragraph;
@@ -70997,7 +70980,7 @@ unicode = 733;
 },
 {
 glyphname = Delta;
-lastChange = "2025-07-10 17:04:25 +0000";
+lastChange = "2025-07-10 18:31:30 +0000";
 layers = (
 {
 layerId = m01;
@@ -71128,11 +71111,11 @@ width = 864;
 }
 );
 note = Delta;
-unicode = (916,8710);
+unicode = 916;
 },
 {
 glyphname = Omega;
-lastChange = "2025-07-10 17:04:25 +0000";
+lastChange = "2025-07-10 18:31:30 +0000";
 layers = (
 {
 layerId = m01;
@@ -71412,7 +71395,7 @@ width = 951;
 }
 );
 note = Omega;
-unicode = (937,8486);
+unicode = 937;
 },
 {
 glyphname = pi;
@@ -79460,7 +79443,7 @@ unicode = 9674;
 },
 {
 glyphname = commaaccent;
-lastChange = "2025-07-10 17:04:21 +0000";
+lastChange = "2025-07-10 18:31:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -79584,7 +79567,7 @@ unicode = 63171;
 glyphname = ff;
 kernLeft = f;
 kernRight = f;
-lastChange = "2025-07-10 17:01:37 +0000";
+lastChange = "2025-07-10 18:31:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -79649,7 +79632,6 @@ width = 835;
 }
 );
 note = ff;
-unicode = 64256;
 },
 {
 glyphname = fi;
@@ -81364,7 +81346,7 @@ note = macron.cap;
 },
 {
 glyphname = caronvertical;
-lastChange = "2025-07-10 17:04:25 +0000";
+lastChange = "2025-07-10 18:31:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -81427,7 +81409,7 @@ note = caronvertical;
 },
 {
 glyphname = .ttfautohint;
-lastChange = "2025-07-10 17:04:05 +0000";
+lastChange = "2025-07-10 18:31:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -81455,6 +81437,28 @@ width = 600;
 }
 );
 note = .ttfautohint;
+},
+{
+glyphname = nbspace;
+lastChange = "2025-07-10 18:31:10 +0000";
+layers = (
+{
+layerId = m01;
+width = 334;
+},
+{
+associatedMasterId = "792D4558-F830-44B3-9794-52A6ACE12B02";
+layerId = "6B1252CF-E426-46DC-A9C6-391C8BFD5F20";
+width = 550;
+},
+{
+layerId = "792D4558-F830-44B3-9794-52A6ACE12B02";
+width = 269;
+}
+);
+metricWidth = space;
+note = nonbreakingspace;
+unicode = 160;
 }
 );
 instances = (
@@ -81497,6 +81501,8 @@ kerningLTR = {
 "@MMK_R_V" = -140;
 "@MMK_R_W" = -100;
 "@MMK_R_Y" = -90;
+"@MMK_R_v" = -50;
+"@MMK_R_w" = -50;
 "@MMK_R_y" = -40;
 };
 "@MMK_L_F" = {
@@ -81558,6 +81564,9 @@ m01 = {
 "@MMK_R_V" = -140;
 "@MMK_R_W" = -110;
 "@MMK_R_Y" = -90;
+"@MMK_R_v" = -40;
+"@MMK_R_w" = -40;
+"@MMK_R_y" = -10;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -86;
@@ -81638,9 +81647,7 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright (c) 2011-2012 by Sorkin Type Co with Reserved Font Name Stoke.
-
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL";
+value = "Copyright 2025 The Stoke Project Authors (https://github.com/googlefonts/stoke)";
 }
 );
 },
@@ -81671,13 +81678,15 @@ key = licenses;
 values = (
 {
 language = ENG;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
