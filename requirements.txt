@@ -58,7 +58,7 @@ mdurl==0.1.2
 munkres==1.1.4
 MutatorMath==3.0.1
 nanoemoji==0.15.8
-networkx==3.5
+networkx
 ninja==1.11.1.4
 numpy==2.3.1
 openstep_plist==0.5.0
